@@ -1,0 +1,29 @@
+This pattern helps in reusing the common child methods implementation
+
+Lets say we have Class Vehicle and different child classes like SportsVehicle, Customized Vehicle, Normal Vehicle
+
+public class Vehicle {
+  public class drive() {
+    Default drive impl
+   }
+}
+
+NormalVehicle extends Vehicle {
+  //same impl as parent
+}
+
+
+//both sports and cusomtized has same impl but is written in its own class i.e duplicates
+SportsVehcle extends Vehicle {
+  //custom impl
+}
+
+CustomizedVehicle extends Vehicle {
+  //custom impl
+}
+
+Thus we see here there is duplicate code written for two subclasses
+
+We can make use of interface here where the functionality will be the interface
+and we will implement different kind of functionality
+
