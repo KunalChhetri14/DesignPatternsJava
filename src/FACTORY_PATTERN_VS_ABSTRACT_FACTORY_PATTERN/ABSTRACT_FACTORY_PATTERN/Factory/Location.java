@@ -1,0 +1,7 @@
+package FACTORY_PATTERN_VS_ABSTRACT_FACTORY_PATTERN.ABSTRACT_FACTORY_PATTERN.Factory;
+
+public enum Location {
+
+  INDIA, US, UK;
+
+}
