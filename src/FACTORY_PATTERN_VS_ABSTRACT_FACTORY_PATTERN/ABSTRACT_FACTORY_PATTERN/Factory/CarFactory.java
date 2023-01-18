@@ -11,8 +11,10 @@ public class CarFactory {
     switch(location) {
       case INDIA:
         car = IndiaCarFactory.buildCar(model);
+        break;
       case US:
         car = UsCarFactory.buildCar(model);
+        break;
 //      case UK:
 //        car = IndiaCarFactory.buildCar(model);
     }

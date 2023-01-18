@@ -8,6 +8,7 @@ public class Main {
 
   public static void main(String args[]) {
     Car car = CarFactory.buildCar(CarType.MINI);
+    Car car1 = CarFactory.buildCar(CarType.LUXURY);
   }
 
 }
